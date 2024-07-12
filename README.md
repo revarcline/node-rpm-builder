@@ -1,4 +1,6 @@
-# RPM Builder [![Build Status](http://img.shields.io/travis/rictorres/node-rpm-builder/master.svg?style=flat-square)](https://travis-ci.org/rictorres/node-rpm-builder) [![npm](https://img.shields.io/npm/v/rpm-builder.svg?style=flat-square)](https://www.npmjs.com/package/rpm-builder) ![David](https://img.shields.io/david/rictorres/node-rpm-builder.svg?style=flat-square)
+# RPM Builder
+
+[![npm](https://img.shields.io/npm/v/@revarcline/rpm-builder.svg?style=flat-square)](https://www.npmjs.com/package/@revarcline/rpm-builder)
 
 Builds [RPM](http://www.rpm.org/) packages using [Node.js](https://nodejs.org/) / [io.js](https://iojs.org/). Maintaining to pass audit.
 
