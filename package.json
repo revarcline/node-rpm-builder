@@ -1,13 +1,12 @@
 {
-  "name": "rpm-builder",
+  "name": "@revarcline/rpm-builder",
   "version": "1.2.1",
-  "description": "Build RPM packages using Node.js",
+  "description": "Build RPM packages using Node.js (2024 fork)",
   "license": "MIT",
-  "homepage": "https://github.com/rictorres/node-rpm-builder",
+  "homepage": "https://github.com/revarcline/node-rpm-builder",
   "author": {
-    "name": "Ricardo Torres",
-    "email": "ricardo@rictorres.com",
-    "url": "http://rictorres.com"
+    "name": "Alex Cline",
+    "email": "rev.a.r.cline@gmail.com"
   },
   "main": "index.js",
   "engines": {
@@ -24,10 +23,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/rictorres/node-rpm-builder.git"
+    "url": "https://github.com/revarcline/node-rpm-builder.git"
   },
   "bugs": {
-    "url": "https://github.com/rictorres/node-rpm-builder/issues"
+    "url": "https://github.com/revarcline/node-rpm-builder/issues"
   },
   "keywords": [
     "rpm",
