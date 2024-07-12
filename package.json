@@ -1,20 +1,19 @@
 {
-  "name": "rpm-builder",
-  "version": "1.2.1",
-  "description": "Build RPM packages using Node.js",
+  "name": "@revarcline/rpm-builder",
+  "version": "1.2.2",
+  "description": "Build RPM packages using Node.js (2024 fork)",
   "license": "MIT",
-  "homepage": "https://github.com/rictorres/node-rpm-builder",
+  "homepage": "https://github.com/revarcline/node-rpm-builder",
   "author": {
-    "name": "Ricardo Torres",
-    "email": "ricardo@rictorres.com",
-    "url": "http://rictorres.com"
+    "name": "Alex Cline",
+    "email": "rev.a.r.cline@gmail.com"
   },
   "main": "index.js",
   "engines": {
     "node": ">=6.0.0"
   },
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha",
+    "test": "./node_modules/mocha/bin/_mocha",
     "coverage": "./node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -R spec test/*.js",
     "lint": "./node_modules/jshint/bin/jshint --reporter ./node_modules/jshint-stylish/stylish.js examples/*.js index.js lib/*.js test/*.js; true"
   },
@@ -24,10 +23,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/rictorres/node-rpm-builder.git"
+    "url": "https://github.com/revarcline/node-rpm-builder.git"
   },
   "bugs": {
-    "url": "https://github.com/rictorres/node-rpm-builder/issues"
+    "url": "https://github.com/revarcline/node-rpm-builder/issues"
   },
   "keywords": [
     "rpm",
@@ -49,7 +48,7 @@
     "istanbul": "^0.4.5",
     "jshint": "^2.9.7",
     "jshint-stylish": "^1.0.0",
-    "mocha": "^2.1.0",
+    "mocha": "^10.6.0",
     "pre-commit": "0.0.11"
   }
 }
